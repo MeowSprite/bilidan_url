@@ -1,0 +1,3 @@
+#!/bin/sh
+ln -s ./bilidan-url /usr/bin/
+cp ./bilidan.desktop /usr/share/applications/

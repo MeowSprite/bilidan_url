@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "BilibiliLocal",
+  "description": "a simple tool for user to open bilibili.com video locally",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "bilibili.jpg",
+    "default_title": "bilibili 干杯!"
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "activeTab"
+  ],
+  "background":{
+  "scripts": ["menu.js"]
+  }
+}

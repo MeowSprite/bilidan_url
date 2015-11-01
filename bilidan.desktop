@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/bilidan-url %u
+MimeType=x-scheme-handler/bilidan;
+NoDisplay=true
+Name=BiliBiliDan
+Terminal=false

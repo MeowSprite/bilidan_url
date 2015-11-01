@@ -1,0 +1,12 @@
+#!/bin/bash
+echo 'bilidanUrl' >/tmp/bilidan.log
+BiliUrl=$1
+echo $BiliUrl >> /tmp/bilidan.log
+if [ ${BiliUrl:0:14} = 'bilidan://urls' ];then
+    BiliUrl=https://${BiliUrl:14}
+    echo $BiliUrl >> /tmp/bilidan.log
+elif [ ${BiliUrl:0:13} = 'bilidan://url' ];then
+    BiliUrl=http://${BiliUrl:13}
+    echo $BiliUrl >> /tmp/bilidan.log
+fi
+./bilidan.py $BiliUrl >> /tmp/bilidan.log

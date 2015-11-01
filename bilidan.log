@@ -1,0 +1,14 @@
+http://www.bilibili.com/video/av3118012/
+Playing: http://ws.acgvideo.com/8/c8/4902773-1.flv?wsTime=1446017629&wsSecret2=a68280c3fa94e879f778bfb0baef163d&oi=3525207042&appkey=85eb6835b0a1034e&or=1902745807
+ (+) Video --vid=1 (h264)
+ (+) Audio --aid=1 (aac)
+ (+) Subs  --sid=1 'tmp-danmaku2ass-4j615lei.ass' (ass) (external)
+Opening video filter: [lavfi graph=fps=fps=60:round=down]
+AO: [pulse] 48000Hz stereo 2ch float
+VO: [opengl] 1280x720 yuv420p
+fontconfig: cannot find font 'SimHei', falling back to 'Droid Sans Fallback'
+fontconfig: cannot find glyph U+2007 in font 'SimHei', falling back to 'DejaVu Sans'
+[file-cache] unexpected EOF
+
+
+Exiting... (Quit)
